@@ -20,17 +20,20 @@
     var CONFIG = {"hostname":"linjianru.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="PHP Golang Linux Mysql">
-<meta property="og:type" content="website">
-<meta property="og:title" content="老板，买条鱼">
-<meta property="og:url" content="https://linjianru.github.io/archives/2021/index.html">
+  <meta name="description" content="版本号格式版本号采用 x.y.z 3位数字的格式来定义  x 主版本号 y 次版本号 z 修复版本号  API文档管理版本更新多版本Bug修复参考文案 gitlab工作流 版本语义化 多版本bug修复流程参考">
+<meta property="og:type" content="article">
+<meta property="og:title" content="App接口多版本管理">
+<meta property="og:url" content="https://linjianru.github.io/2021/03/15/App%E6%8E%A5%E5%8F%A3%E5%A4%9A%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/index.html">
 <meta property="og:site_name" content="老板，买条鱼">
-<meta property="og:description" content="PHP Golang Linux Mysql">
+<meta property="og:description" content="版本号格式版本号采用 x.y.z 3位数字的格式来定义  x 主版本号 y 次版本号 z 修复版本号  API文档管理版本更新多版本Bug修复参考文案 gitlab工作流 版本语义化 多版本bug修复流程参考">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-03-15T15:25:59.000Z">
+<meta property="article:modified_time" content="2021-03-15T09:49:08.208Z">
 <meta property="article:author" content="ling">
+<meta property="article:tag" content="Api&#x2F;接口">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://linjianru.github.io/archives/2021/">
+<link rel="canonical" href="https://linjianru.github.io/2021/03/15/App%E6%8E%A5%E5%8F%A3%E5%A4%9A%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/">
 
 
 <script id="page-configurations">
@@ -38,12 +41,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>归档 | 老板，买条鱼</title>
+  <title>App接口多版本管理 | 老板，买条鱼</title>
   
 
 
@@ -141,50 +144,92 @@
         <div class="content-wrap">
           
 
-          <div class="content archive">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://linjianru.github.io/2021/03/15/App%E6%8E%A5%E5%8F%A3%E5%A4%9A%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="ling">
+      <meta itemprop="description" content="PHP Golang Linux Mysql">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="老板，买条鱼">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          App接口多版本管理
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2021-03-15 15:25:59 / 修改时间：09:49:08" itemprop="dateCreated datePublished" datetime="2021-03-15T15:25:59+00:00">2021-03-15</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Api-%E6%8E%A5%E5%8F%A3/" itemprop="url" rel="index"><span itemprop="name">Api/接口</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+        <h2 id="版本号格式"><a href="#版本号格式" class="headerlink" title="版本号格式"></a>版本号格式</h2><p>版本号采用 <strong>x.y.z</strong> 3位数字的格式来定义</p>
+<ul>
+<li>x 主版本号</li>
+<li>y 次版本号</li>
+<li>z 修复版本号</li>
+</ul>
+<h2 id="API文档管理"><a href="#API文档管理" class="headerlink" title="API文档管理"></a>API文档管理</h2><h2 id="版本更新"><a href="#版本更新" class="headerlink" title="版本更新"></a>版本更新</h2><h2 id="多版本Bug修复"><a href="#多版本Bug修复" class="headerlink" title="多版本Bug修复"></a>多版本Bug修复</h2><h2 id="参考文案"><a href="#参考文案" class="headerlink" title="参考文案"></a>参考文案</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/38774185">gitlab工作流</a></li>
+<li><a target="_blank" rel="noopener" href="https://semver.org/lang/zh-CN/">版本语义化</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.5udou.cn/blog/Git-TagZai-Ruan-Jian-Ban-Ben-Fa-Bu-Zhong-De-Shi-Jian-34">多版本bug修复流程参考</a></li>
+</ul>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2021-03-15T15:25:59+00:00"
-              content="2021-03-15">
-          03-15
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Api-%E6%8E%A5%E5%8F%A3/" rel="tag"># Api/接口</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/03/15/App%E6%8E%A5%E5%8F%A3%E5%A4%9A%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/" itemprop="url">
-            <span itemprop="name">App接口多版本管理</span>
-          </a>
-      </div>
+        
 
-    </header>
+
+        
+      </footer>
+    
   </article>
-
-
-    </div>
-  </div>
   
   
-  
-
   
 
 
@@ -237,6 +282,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%88%E6%9C%AC%E5%8F%B7%E6%A0%BC%E5%BC%8F"><span class="nav-number">1.</span> <span class="nav-text">版本号格式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#API%E6%96%87%E6%A1%A3%E7%AE%A1%E7%90%86"><span class="nav-number">2.</span> <span class="nav-text">API文档管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0"><span class="nav-number">3.</span> <span class="nav-text">版本更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%9A%E7%89%88%E6%9C%ACBug%E4%BF%AE%E5%A4%8D"><span class="nav-number">4.</span> <span class="nav-text">多版本Bug修复</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E6%A1%88"><span class="nav-number">5.</span> <span class="nav-text">参考文案</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
